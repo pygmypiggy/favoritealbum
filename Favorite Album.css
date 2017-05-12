@@ -1,0 +1,36 @@
+body {
+    background-color:black;
+    font-family:sans-serif;
+}
+
+img {
+
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    text-align:center;
+    font-size:55px;
+    color:darkred;
+}
+
+h2 {
+    text-align:center;
+    font-size:40px;
+    color:darkred;
+}
+
+p {
+    text-align:center;
+    font-size:30px;
+    color:darkred;
+}
+
+ul {
+    text-align:center;
+    font-size:30px;
+    color:darkred;
+    list-style-type: none;
+}
+
