@@ -13,24 +13,32 @@ h1 {
     text-align:center;
     font-size:55px;
     color:darkred;
+    font-family: 'Play', sans-serif;
 }
 
 h2 {
-    text-align:center;
-    font-size:40px;
-    color:darkred;
+    text-align: center;
+    font-size: 40px;
+    color:red;
+    font-family: 'Play', sans-serif;
+
 }
 
 p {
-    text-align:center;
-    font-size:30px;
+    text-align: center;
+    font-size: 30px;
     color:darkred;
+    font-family: 'Play', sans-serif;
 }
 
 ul {
-    text-align:center;
-    font-size:30px;
+    text-align: center;
+    font-size: 30px;
     color:darkred;
     list-style-type: none;
+    font-family: 'Play', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
