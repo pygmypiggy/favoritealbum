@@ -1,39 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet"/>
-      <style>
-      
-        th {
-          color:darkred;
-          font-family:sans-serif;
-        }
-
-        tr {
-          color:darkred;
-          font-family:sans-serif;
-        }
-
-        td {
-          color:darkred;
-          font-family:sans-serif;
-        }
-
-      </style>
+        <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet"/>
         <link href="Favorite Album.css"
-        rel="stylesheet"
-        type="text/css" />
+         rel="stylesheet"
+         type="text/css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     </head>
-      <body>
-         
-         <img src="amnesiac.jpg"/> 
+      <body style="background-color:dimgray;">
+      
+         <img class="img-circle" src="amnesiac.jpg"/> 
 
          <h1>Amnesiac</h1>
          <div>
          <p>By:</p>
          </div>
          <div style="text-align:center">  
-         <a href="https://www.radiohead.com">Radiohead</a>
+         <a style="color:red;" href="https://www.radiohead.com">Radiohead</a>
          </div>
          <div>
          <p>About:</p>    
@@ -54,7 +40,8 @@
            <li><i>Philip Selway - Drums</i></li><br/>
        </ul>
 
-       <table border="5" width="100%">
+     <div class="table-responsive">
+       <table class="table" border="5" width="100%">
          
          <tr>
            <thead>
@@ -121,6 +108,7 @@
              </tr>
 
        </table>
+     </div>  
 
       </body>
 </html>
